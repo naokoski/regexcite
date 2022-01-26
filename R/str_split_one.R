@@ -4,7 +4,8 @@
 #' Use a function to split a string.
 #'
 #' @param string A character vector with one element.
-#' @param split What to split on.
+#' @param pattern What to split on.
+#' @param n Number of pieces to return. Inf uses all possible split positions.
 #'
 #' @return A character vector.
 #' @export

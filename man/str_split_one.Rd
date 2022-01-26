@@ -9,7 +9,9 @@ str_split_one(string, pattern, n = Inf)
 \arguments{
 \item{string}{A character vector with one element.}
 
-\item{split}{What to split on.}
+\item{pattern}{What to split on.}
+
+\item{n}{Number of pieces to return. Inf uses all possible split positions.}
 }
 \value{
 A character vector.
